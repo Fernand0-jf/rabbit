@@ -102,11 +102,12 @@ GET /api/usuarios
   "ultimoNome":"alves"
   "email": "john@example.com"
 }
-#### Obter todos os Usuários
+```
+## Deletar Usuário
 
 **Request:**
 ```http
-DELETE /api/usuarios
+DELETE /api/usuarios/1
 ```
 **Resposta:**
 ```http
