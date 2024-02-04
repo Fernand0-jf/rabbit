@@ -1,15 +1,14 @@
-# Projeto CRUD REST API com Spring Boot
+# Projeto CRUD REST API
 
-Uma API RESTful CRUD construída com Spring Boot, Spring Data, Hibernate, Swagger, Lombok e PostgreSQL.
-##Tecnologias Usadas
-User
+## Tecnologias Usadas
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" width="40"/>  `PostgreSQL`
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" width="40"/>  `Spring Boot 3`
 <img src="https://www.vectorlogo.zone/logos/hibernate/hibernate-icon.svg" width="40" height="40">  `Hibernate`
 <img src="https://www.svgrepo.com/show/374111/swagger.svg" width="50" height="50">  `Swagger`
 <img src="https://raw.githubusercontent.com/projectlombok/lombok/f3a4b1b4151a9dd1646f1b170c17f5f29903f45a/src/installer/lombok/installer/lombok.svg" width="40" height="40">  `Lombok`
-- [Spring Data JPA](https://spring.io/projects/spring-data-jpa) <i class="devicon-spring-plain"></i>
-
+<img src="https://ingredient-generation-generated-ingredients.canva.com/1def92e5-cc39-4e53-bb8c-fba023d917a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHQLRPZXQM%2F20240204%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240204T163812Z&X-Amz-Expires=113218&X-Amz-Signature=e5d4d0dbc68109b1a7e7b13f04b7361e6d0ef872ad02caf74bf6896034beb728&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2006%20Feb%202024%2000%3A05%3A10%20GMT" width="40" height="40">  `Spring Data Jpa`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>`Java`
 ## Instruções de Instalação
 
 1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
@@ -35,11 +34,11 @@ Acesse a documentação da API utilizando Swagger:
 
 ### Rotas da API
 
-- `GET /api/funcionarios`: Obter todos os usuários
-- `GET /api/funcionarios/{id}`: Obter um usuário específico
-- `POST /api/funcionarios`: Criar um novo usuário
-- `PUT /api/funcionarios/{id}`: Atualizar um usuário existente
-- `DELETE /api/funcionarios/{id}`: Excluir um usuário
+- `GET /api/funcionarios`: Obter todos os funcionarios
+- `GET /api/funcionarios/{id}`: Obter um funcionario específico
+- `POST /api/funcionarios`: Criar um novo funcionario
+- `PUT /api/funcionarios/{id}`: Atualizar um funcionario existente
+- `DELETE /api/funcionarios/{id}`: Excluir um funcionario
 
 ### Exemplos
 
