@@ -11,7 +11,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>`Java`
 ## Instruções de Instalação
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
+1. Clone o repositório: `git clone https://github.com/Fernand0-jf/Crud_Rest_Api.git`
 2. Configure o banco de dados PostgreSQL e atualize as configurações no arquivo `application.properties`.
 3. Instale as dependências: `mvn install` ou `./gradlew build`
 4. Execute a aplicação: `mvn spring-boot:run` ou `./gradlew bootRun`
