@@ -10,6 +10,9 @@
 
 <img src="https://ingredient-generation-generated-ingredients.canva.com/1def92e5-cc39-4e53-bb8c-fba023d917a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHQLRPZXQM%2F20240204%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240204T163812Z&X-Amz-Expires=113218&X-Amz-Signature=e5d4d0dbc68109b1a7e7b13f04b7361e6d0ef872ad02caf74bf6896034beb728&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2006%20Feb%202024%2000%3A05%3A10%20GMT" width="40" height="40">  `Spring Data Jpa`
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>`Java`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original-wordmark.svg" width="50" height="50"/>`JUnit 5`
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Mockito_Logo.png" width="70" height="70"/>`Mockito`
+          
 ## Instruções de Instalação
 
 1. Clone o repositório: `git clone https://github.com/Fernand0-jf/Crud_Rest_Api.git`
