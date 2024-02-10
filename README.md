@@ -112,7 +112,31 @@ GET /api/usuarios
 ```http
 DELETE /api/usuarios/1
 ```
-**Resposta:**
+**Resposta**
 ```http
 Funcionario deletado com sucesso.
 ```
+## Testes Unitários
+
+Neste projeto, foi realizado um conjunto abrangente de testes unitários utilizando JUnit e Mockito. Esses testes foram elaborados para validar cada aspecto das operações CRUD (Create, Read, Update, Delete) da API RESTful.
+
+### JUnit e Mockito
+
+- **JUnit:** O JUnit é um framework de teste unitário amplamente utilizado para a linguagem Java. Ele oferece uma estrutura simples e poderosa para escrever e executar testes automatizados.
+- **Mockito:** O Mockito é uma biblioteca popular para criação de mocks e stubs em testes unitários. Ele nos permite simular o comportamento de objetos e controlar o resultado das chamadas de métodos, facilitando o teste de componentes isolados.
+
+### Cobertura de Teste
+
+Após a implementação dos testes unitários, realizei uma análise de cobertura para garantir a abrangência dos testes. Fico satisfeito em informar que alcançamos uma cobertura de teste de 100%. Isso significa que todas as partes críticas do código foram testadas e validadas, proporcionando uma confiança adicional na qualidade do software.
+
+### Benefícios dos Testes Unitários
+
+Os testes unitários oferecem uma série de benefícios significativos para o desenvolvimento de software:
+
+- **Detecção Precoce de Problemas:** Os testes unitários nos ajudam a identificar problemas de código precocemente, antes que eles se tornem mais difíceis e custosos de corrigir.
+- **Facilidade de Manutenção:** Uma suíte robusta de testes unitários simplifica a manutenção do código, permitindo que façamos alterações com confiança, sabendo que os testes nos alertarão sobre qualquer regressão.
+- **Documentação Viva:** Os testes unitários também servem como uma forma de documentação viva do código. Eles descrevem como as várias partes do sistema devem se comportar e podem ajudar os novos membros da equipe a entender o funcionamento do software.
+
+### Conclusão
+
+Os testes unitários são uma parte essencial do processo de desenvolvimento de software. Eles garantem a robustez, confiabilidade e qualidade do código, permitindo que entreguemos produtos de alta qualidade aos nossos usuários finais. Com uma cobertura de teste completa e o uso de ferramentas poderosas como JUnit e Mockito, estou confiante na estabilidade e desempenho da API RESTFUL.
