@@ -29,6 +29,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Role;
 
+import com.fernando.crud.exception.ResourceNotFoundException;
 import com.fernando.crud.model.Funcionario;
 import com.fernando.crud.repository.FuncionarioRepository;
 
@@ -94,8 +95,8 @@ class FuncionarioServiceImplTest {
 	@DisplayName("Fracassa em obter funcionario pelo id")
 	public void obterFuncionarioPorIdCase2() {
 		Funcionario func = criarUsuario1();
-		when(funcionarioRepository.findById(1L)).thenThrow(new RuntimeException("erro ao obter usuario pelo id"));
-		assertThrows(RuntimeException.class,()->funcionarioServiceImpl.obterFuncionarioPorId(1L));
+		when(funcionarioRepository.findById(1L)).thenReturn(Optional.empty());
+		assertThrows(ResourceNotFoundException.class,()->funcionarioServiceImpl.obterFuncionarioPorId(1L));
 		
 	}
 	@Test
