@@ -140,3 +140,4 @@ Os testes unitários oferecem uma série de benefícios significativos para o de
 ### Conclusão
 
 Os testes unitários são uma parte essencial do processo de desenvolvimento de software. Eles garantem a robustez, confiabilidade e qualidade do código, permitindo que entreguemos produtos de alta qualidade aos nossos usuários finais. Com uma cobertura de teste completa e o uso de ferramentas poderosas como JUnit e Mockito, estou confiante na estabilidade e desempenho da API RESTFUL.
+# rabbit
