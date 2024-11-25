@@ -2,9 +2,11 @@ package com.fernando.crud.service.impl;
 
 import java.util.List;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.fernando.crud.RabbitMQProducer;
 import com.fernando.crud.exception.ResourceNotFoundException;
 import com.fernando.crud.model.Funcionario;
 import com.fernando.crud.repository.FuncionarioRepository;
@@ -13,16 +15,20 @@ import com.fernando.crud.service.FuncionarioService;
 public class FuncionarioServiceImpl implements FuncionarioService{
 	
 	private FuncionarioRepository funcionarioRepository;
+	private RabbitMQProducer mqProducer;
 	
 	@Autowired
-	public FuncionarioServiceImpl(FuncionarioRepository funcionarioRepository) {
+	public FuncionarioServiceImpl(FuncionarioRepository funcionarioRepository,RabbitMQProducer mqProducer) {
 		super();
 		this.funcionarioRepository = funcionarioRepository;
+		this.mqProducer = mqProducer;
 	}
 
 
 	@Override
 	public Funcionario salvarFuncionario(Funcionario funcionario) {
+		
+		mqProducer.sendEmail(funcionario.getEmail());
 		return funcionarioRepository.save(funcionario);
 	}
 
